@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!--siempre va primero normalice-->
+    <link rel="preload" href="css/normalice.css" as="style">
+    <link rel="stylesheet" href="css/normalice.css">
+
+    <!--Importacion de fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub:wght@200;400;700&display=swap" rel="stylesheet">
+
     <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
@@ -14,7 +24,10 @@
     </header>
 
     <!--comentario-->
-<nav>
+
+    <div class="nav-bg">
+
+<nav class="navegacion-principal contenedor">
 
 
     <a href="">Inicio </a>
@@ -23,6 +36,7 @@
     <a href="">Contacto </a>
 </nav>
 
+</div>
     <section>
     <h2>Diseño y desarrollo web </h2>
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
